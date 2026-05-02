@@ -1,0 +1,12 @@
+new_dbt_project:
+  outputs:
+    dev:
+      catalog: dbtproject
+      host: dbc-434ee770-dc97.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/b60e2c09d4649311
+      schema: source
+      threads: 1      
+      token: YOUR_DATABRICKS_TOKEN
+      type: databricks
+  target: dev
+
